@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ind.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="cal">
+        <div class="brand">
+            <div class="soloar A">
+                <h3>CITIZEN <br> <span>SLD-100NR</span> </h3>
+            </div>
+            <div class="soloar B">
+                <div class="Sol_dis"></div>
+                <p>2 POWER</p>
+            </div>
+        </div>
+        <div class="display" id="DIS">
+            <p id="dis1"></p>
+            <p id="dis2"></p>
+            <p id="dis3"></p>
+        </div>
+        <div class="numbers">
+            <table>
+                <tr>
+                    <td>C/CE</td>
+                    <td>OFF</td>
+                    <td>_|---|</td>
+                    <td>%</td>
+                </tr>
+                <tr>
+                    <td>MRC</td>
+                    <td>M-</td>
+                    <td>M+</td>
+                    <td> <button type="button" id="/" onclick="ope('D')">/</button> </td>
+                </tr>
+                <tr>
+                    <td> <button type="button" id="N7" onclick="number('7'),num(7)">7</button> </td>
+                    <td> <button type="button" id="N8" onclick="number('8'),num(8)">8</button></td>
+                    <td> <button type="button" id="N7" onclick="number('9'),num(9)">9</button> </td>
+                    <td> <button type="button" id="*" onclick="ope('A')">*</button> </td>
+                </tr>
+                <tr>
+                    <td> <button type="button" id="N7" onclick="number('4'),num(4)">4</button> </td>
+                    <td> <button type="button" id="N7" onclick="number('5'),num(5)">5</button> </td>
+                    <td> <button type="button" id="N7" onclick="number('6'),num(6)">6</button> </td>
+                    <td> <button type="button" id="-" onclick="ope('BB')">--</button> </td>
+                </tr>
+                <tr>
+                    <td> <button type="button" id="N7" onclick="number('1'),num(1)">1</button> </td>
+                    <td> <button type="button" id="N7" onclick="number('2'),num(2)">2</button> </td>
+                    <td> <button type="button" id="N7" onclick="number('3'),num(3)">3</button> </td>
+                    <td rowspan="2"> <button type="button" id="+" onclick="ope('C')">+</button> </td>
+                </tr>
+                <tr>
+                    <td> <button type="button" id="N7" onclick="number('0'),num(0)">0</button> </td>
+                    <td> <button type="button" id="N7" onclick="number('.'),num('.')">.</button> </td>
+                    <td> <button type="button" id="=" onclick="job()">=</button> </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <p id="v1"></p>
+    <p id="v2"></p>
+    <script src="in.js"></script>
+</body>
+
+</html>
