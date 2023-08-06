@@ -2,7 +2,7 @@
 
 Welcome to my web-based calculator website! This project was built using HTML, CSS, and jQuery, providing users with a sleek and user-friendly calculator for quick and efficient calculations.
 
-![Calculator Preview](Capture.JPG)
+![Calculator Preview](Capture-4.JPG)
 
 
 ## Features
